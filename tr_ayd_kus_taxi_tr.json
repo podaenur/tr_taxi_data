@@ -1,0 +1,276 @@
+{
+  "schemaVersion": "1.0.0",
+  "updatedAt": "2026-11-05",
+  "locale": "tr-TR",
+  "area": {
+    "city": "Kuşadası",
+    "province": "Aydın",
+    "country": "TR",
+    "timezone": "Europe/Istanbul"
+  },
+  "stands": [
+    {
+      "id": "marina-taksi",
+      "slug": "marina-taksi",
+      "name": "Marina Taksi",
+      "neighborhood": "Türkmen",
+      "description": "Kuşadası marina bölgesinde taksi durağı.",
+      "contact": {
+        "phones": [
+          "+902566181593"
+        ],
+        "whatsapp": null,
+        "website": null
+      },
+      "address": "Türkmen, Atatürk Blv. 186/2, 09400 Kuşadası/Aydın, Türkiye",
+      "location": {
+        "latitude": 37.871886,
+        "longitude": 27.264679
+      },
+      "openingHours": {
+        "timezone": "Europe/Istanbul",
+        "is24Hours": null,
+        "weekly": null,
+        "note": "Kaynaklarda çalışma saatleri çelişiyor; doğrulanmalı."
+      },
+      "paymentMethods": {
+        "cash": null,
+        "bankCard": null
+      },
+      "photos": null,
+      "parkingLocations": null
+    },
+    {
+      "id": "plaj-taksi",
+      "slug": "plaj-taksi",
+      "name": "Plaj Taksi Durağı",
+      "neighborhood": "Kadınlar Denizi",
+      "description": "Kadınlar Denizi bölgesinde taksi durağı.",
+      "contact": {
+        "phones": [
+          "+902566145900"
+        ],
+        "whatsapp": null,
+        "website": null
+      },
+      "address": "Kadınlar Denizi, Kadınlar Denizi Cd. No:68, 09400 Kuşadası/Aydın, Türkiye",
+      "location": {
+        "latitude": null,
+        "longitude": null
+      },
+      "openingHours": {
+        "timezone": "Europe/Istanbul",
+        "is24Hours": true,
+        "weekly": null,
+        "note": "24 saat bilgisi kullanıcı tarafından sağlandı; bağımsız teyit gerekli."
+      },
+      "paymentMethods": {
+        "cash": null,
+        "bankCard": true
+      },
+      "photos": null,
+      "parkingLocations": null
+    },
+    {
+      "id": "derya-taksi",
+      "slug": "derya-taksi",
+      "name": "Derya Taksi",
+      "neighborhood": "Türkmen",
+      "description": "Türkmen Mahallesi'nde hizmet veren taksi durağı.",
+      "contact": {
+        "phones": [
+          "+902566181818"
+        ],
+        "whatsapp": null,
+        "website": null
+      },
+      "address": "Türkmen, 09460 Kuşadası/Aydın, Türkiye",
+      "location": {
+        "latitude": null,
+        "longitude": null
+      },
+      "openingHours": {
+        "timezone": "Europe/Istanbul",
+        "is24Hours": null,
+        "weekly": null,
+        "note": "Kaynaklarda 06:00–23:00 ve 08:30–22:00 saatleri farklı; doğrulanmalı."
+      },
+      "paymentMethods": {
+        "cash": null,
+        "bankCard": true
+      },
+      "photos": null,
+      "parkingLocations": null
+    },
+    {
+      "id": "garaj-taksi",
+      "slug": "garaj-taksi",
+      "name": "Kuşadası Garaj Taksi",
+      "neighborhood": "İkiçeşmelik",
+      "description": "Kuşadası otogarı yakınında taksi durağı.",
+      "contact": {
+        "phones": [
+          "+902566148750"
+        ],
+        "whatsapp": null,
+        "website": null
+      },
+      "address": "İkiçeşmelik, Süleyman Demirel Blv. No:33, 09400 Kuşadası/Aydın, Türkiye",
+      "location": {
+        "latitude": null,
+        "longitude": null
+      },
+      "openingHours": {
+        "timezone": "Europe/Istanbul",
+        "is24Hours": null,
+        "weekly": null,
+        "note": "24 saat bilgisi bazı rehberlerde var; doğrulanmalı."
+      },
+      "paymentMethods": {
+        "cash": null,
+        "bankCard": null
+      },
+      "photos": null,
+      "parkingLocations": null
+    },
+    {
+      "id": "demo-full-taksi",
+      "slug": "demo-full-taksi",
+      "name": "DEMO — Full Taksi",
+      "neighborhood": "Türkmen",
+      "description": "Yalnızca geliştirme ve arayüz testi için oluşturulmuş örnek durak. Gerçek işletme değildir.",
+      "contact": {
+        "phones": [
+          "+905550000001",
+          "+905550000002"
+        ],
+        "whatsapp": "https://wa.me/905550000001",
+        "website": "https://example.com/taxi"
+      },
+      "address": "Örnek Mahallesi, Örnek Sokak No: 1, Kuşadası/Aydın, Türkiye",
+      "location": {
+        "latitude": 37.8595,
+        "longitude": 27.2595
+      },
+      "openingHours": {
+        "timezone": "Europe/Istanbul",
+        "is24Hours": false,
+        "weekly": {
+          "monday": [
+            {
+              "open": "08:00",
+              "close": "22:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "open": "08:00",
+              "close": "22:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "open": "08:00",
+              "close": "22:00"
+            }
+          ],
+          "thursday": [
+            {
+              "open": "08:00",
+              "close": "22:00"
+            }
+          ],
+          "friday": [
+            {
+              "open": "08:00",
+              "close": "23:00"
+            }
+          ],
+          "saturday": [
+            {
+              "open": "09:00",
+              "close": "23:00"
+            }
+          ],
+          "sunday": null
+        },
+        "note": "Pazar günü kapalı (demo)."
+      },
+      "paymentMethods": {
+        "cash": true,
+        "bankCard": true
+      },
+      "photos": [
+        {
+          "url": "https://placehold.co/1200x800/png?text=Demo+Taxi+Stand",
+          "alt": "Demo taxi stand placeholder",
+          "isCover": true
+        },
+        {
+          "url": "https://placehold.co/800x600/png?text=Demo+Parking",
+          "alt": "Demo parking placeholder",
+          "isCover": false
+        }
+      ],
+      "parkingLocations": [
+        {
+          "id": "demo-full-parking-1",
+          "name": "DEMO — Ek Park 1",
+          "address": "Örnek Sokak No: 2, Kuşadası/Aydın, Türkiye",
+          "location": {
+            "latitude": 37.8598,
+            "longitude": 27.2598
+          },
+          "photos": [
+            {
+              "url": "https://placehold.co/800x600/png?text=Demo+Parking+1",
+              "alt": "Demo parking 1 placeholder",
+              "isCover": true
+            }
+          ]
+        },
+        {
+          "id": "demo-full-parking-2",
+          "name": "DEMO — Ek Park 2",
+          "address": "Örnek Sokak No: 3, Kuşadası/Aydın, Türkiye",
+          "location": {
+            "latitude": 37.8601,
+            "longitude": 27.2601
+          },
+          "photos": null
+        }
+      ]
+    },
+    {
+      "id": "demo-minimal-taksi",
+      "slug": "demo-minimal-taksi",
+      "name": "DEMO — Minimal Taksi",
+      "neighborhood": null,
+      "description": null,
+      "contact": {
+        "phones": [
+            "+905451234567"
+        ],
+        "whatsapp": null,
+        "website": null
+      },
+      "address": null,
+      "location": {
+        "latitude": 31.0001,
+        "longitude": 21.0002
+      },
+      "openingHours": {
+        "timezone": "Europe/Istanbul",
+        "is24Hours": null,
+        "weekly": null,
+        "note": null
+      },
+      "paymentMethods": {
+        "cash": null,
+        "bankCard": null
+      },
+      "photos": null,
+      "parkingLocations": null
+    }
+  ]
+}
